@@ -1,0 +1,48 @@
+#+title: HF-XXXXXX.
+#+date: Mon Jul 22 10:36:42 2024
+#+author: Zi Liang
+#+email: zi1415926.liang@connect.polyu.hk
+#+latex_class: elegantpaper
+#+filetags: :doc:
+
+NOTICE: This repository is used for my co-researchers.
+
+NOTICE: This repository can ONLY be used for scientific research and is
+NOT allowed to be utilized for any malicious activities. At the same time,
+the author will NOT be responsible for all consequences caused by the
+illegal use of this document.
+
+** STEP 1: Envrionment.
+
+Using default python environment to install the following package:
+
+#+begin_src python
+pip3 install datasets  
+#+end_src
+
+
+** STEP 2: Executation Permission
+
+
+#+begin_src sh 
+
+  git clone https://liangzid/HFAuDo
+
+  cd HFAudo
+
+  chmod +x run.sh
+#+end_src
+
+** STEP 3: Add it to the automatic task.
+
+#+begin_src sh 
+
+  crontab -e
+
+  # then you will open a file, add the following line:
+
+  # 0 0 * * * /path/to/run.sh
+#+end_src
+
+
+DONE.
