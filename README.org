@@ -20,6 +20,13 @@ Using default python environment to install the following package:
 pip3 install datasets  
 #+end_src
 
+=vim ~/.bashrc= and append the path of this repository.
+
+#+begin_src sh 
+
+export HFAD_PATH="${HOME}/HFAuDo/"
+#+end_src
+
 
 ** STEP 2: Executation Permission
 

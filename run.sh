@@ -16,7 +16,7 @@
 ##  
 ######################################################################
 
-export DAILY_COMMAND="python run.py"
+export DAILY_COMMAND="python ${HFAD_PATH}/run.py"
 export TIMES_PERDAY=20
 
 for i in {1..${TIMES_PERDAY}}
